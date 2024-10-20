@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/mathematics.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Calcular Nota</h1>
+    </header>
+    <section class="container">
+        <form action="/" id="formulario" method="post">
+            <label  for="nota1" id="firstNota">Av1:</label>
+            <input  placeholder="Escreva sua primeira nota" type="text" id="nota1">
+
+            <label for="nota2" id="SecondNota">Av2:</label>
+            <input placeholder="Escreva sua segunda nota"  type="text" id="nota2">
+
+            <button type="submit" id="enviar">Enviar</button>
+            <button type="submit" id="limpar">Limpar</button> 
+        </form>
+    </section>
+    
+    <div class="resultado-container">
+        <div id="resultado">
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Site feito por <a target="_blank" href="https://github.com/DiegoNoxe">Diego Nascimento</a></p>
+    </footer>
+
+    <script src="main.js"></script> 
+</body>
+</html>
