@@ -1,0 +1,2 @@
+# CalculandoMedia
+ Calculando ntot
